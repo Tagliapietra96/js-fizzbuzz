@@ -1,0 +1,8 @@
+.my-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    aspect-ratio: 1/1;
+    border: 10px solid var(--bs-dark);
+}
