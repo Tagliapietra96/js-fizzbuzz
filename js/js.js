@@ -1,6 +1,6 @@
 const rowEl = document.querySelector('.d-flex');
 
-for (i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     if (i % 3 === 0 && i % 5 === 0) {
         rowEl.innerHTML += `<div class="my-col bg-danger">FizzBuzz</div>`;
